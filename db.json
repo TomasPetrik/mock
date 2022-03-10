@@ -2,11 +2,147 @@
   "transactions": [
     {
       "id": 1,
-      "title": "Bob - Alice"
+      "data": {
+        "id": "ef98e897-5b81-49a5-aca6-01d9759df075",
+        "type": "transaction",
+        "attributes": {
+          "createdAt": "2018-03-27T12:30:02.000Z",
+          "processName": "preauth-with-nightly-booking",
+          "processVersion": 3,
+          "lastTransition": "transition/request",
+          "lastTransitionedAt": "2018-03-27T12:30:03.100Z",
+          "payinTotal": {
+            "amount": 6360,
+            "currency": "USD"
+          },
+          "payoutTotal": {
+            "amount": 5724,
+            "currency": "USD"
+          },
+          "lineItems": [
+            {
+              "code": "line-item/day",
+              "quantity": 4,
+              "units": 2,
+              "seats": 2,
+              "reversal": false,
+              "unitPrice": {
+                "amount": 1590,
+                "currency": "USD"
+              },
+              "lineTotal": {
+                "amount": 6360,
+                "currency": "USD"
+              },
+              "includeFor": [
+                "customer",
+                "provider"
+              ]
+            },
+            {
+              "code": "line-item/provider-commission",
+              "percentage": -10.0,
+              "reversal": false,
+              "unitPrice": {
+                "amount": 6360,
+                "currency": "USD"
+              },
+              "lineTotal": {
+                "amount": -636,
+                "currency": "USD"
+              },
+              "includeFor": [
+                "provider"
+              ]
+            }
+          ],
+          "protectedData": {
+            "phoneNumber": "+1-202-555-5555"
+          },
+          "metadata": {
+            "refId": 1234
+          },
+          "transitions": [
+            {
+              "transition": "transition/request",
+              "createdAt": "2018-03-27T12:30:03.100Z",
+              "by": "customer"
+            }
+          ]
+        }
+      }
     },
     {
       "id": 2,
-      "title": "Lukas - Susan"
+      "data": {
+        "id": "ef98e897-5b81-49a5-aca6-01d9759df077",
+        "type": "transaction",
+        "attributes": {
+          "createdAt": "2018-03-27T12:30:02.000Z",
+          "processName": "preauth-with-nightly-booking",
+          "processVersion": 3,
+          "lastTransition": "transition/request",
+          "lastTransitionedAt": "2018-03-27T12:30:03.100Z",
+          "payinTotal": {
+            "amount": 6360,
+            "currency": "USD"
+          },
+          "payoutTotal": {
+            "amount": 5724,
+            "currency": "USD"
+          },
+          "lineItems": [
+            {
+              "code": "line-item/day",
+              "quantity": 4,
+              "units": 2,
+              "seats": 2,
+              "reversal": false,
+              "unitPrice": {
+                "amount": 1590,
+                "currency": "USD"
+              },
+              "lineTotal": {
+                "amount": 6360,
+                "currency": "USD"
+              },
+              "includeFor": [
+                "customer",
+                "provider"
+              ]
+            },
+            {
+              "code": "line-item/provider-commission",
+              "percentage": -10.0,
+              "reversal": false,
+              "unitPrice": {
+                "amount": 6360,
+                "currency": "USD"
+              },
+              "lineTotal": {
+                "amount": -636,
+                "currency": "USD"
+              },
+              "includeFor": [
+                "provider"
+              ]
+            }
+          ],
+          "protectedData": {
+            "phoneNumber": "+1-202-555-5555"
+          },
+          "metadata": {
+            "refId": 1234
+          },
+          "transitions": [
+            {
+              "transition": "transition/request",
+              "createdAt": "2018-03-27T12:30:03.100Z",
+              "by": "customer"
+            }
+          ]
+        }
+      }
     }
   ],
     "posts": [
