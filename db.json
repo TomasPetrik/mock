@@ -1,4 +1,14 @@
 {
+  "transactions": [
+    {
+      "id": 1,
+      "title": "Bob - Alice"
+    },
+    {
+      "id": 2,
+      "title": "Lukas - Susan"
+    }
+  ],
     "posts": [
       {
         "id": 1,
