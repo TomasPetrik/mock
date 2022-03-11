@@ -1,7 +1,6 @@
 {
   "transactions": [
     {
-      "id": 1,
       "data": {
         "id": "ef98e897-5b81-49a5-aca6-01d9759df075",
         "type": "transaction",
@@ -73,7 +72,6 @@
       }
     },
     {
-      "id": 2,
       "data": {
         "id": "ef98e897-5b81-49a5-aca6-01d9759df077",
         "type": "transaction",
